@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(126, 126, 236, 0.414);
+}
+.wrapper{
+    width: 605px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+    box-shadow: 5px 10px #8888885f;
+}
+.wrapper> header{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0;
+}
+.quote-area{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.quote-area > i{
+    font-size: 15px;
+}
+.quote-area > i:first-child{    
+    margin:3px 10px 0 0  ;
+}
+.quote-area > i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin:0 0 3px 10px ;
+}
+
+.quote-area > p{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
+    
+}
+.author{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.author {
+    margin: 18px 5px 0 0;
+} 
+
+.button{
+    border-top: 1px solid gray;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features > ul {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.features > ul > li {
+    list-style: none;
+    margin: 10px 5px;
+    height: 46px;
+    width: 46px;
+    border: 1px solid #5672f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: #5672f0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.features > ul > li:hover {
+    color: white;
+    background-color: #5672f0;
+}
+.features > button {
+    border: none;
+    outline: none;
+    padding: 13px 13px;
+    background:rgb(226, 235, 70) ;
+    border-radius: 8px;
+    padding: 13px 13px;
+    cursor: pointer;
+}
